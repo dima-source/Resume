@@ -11420,6 +11420,11 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.picture{
+  width: 20vh;
+  display: none !important;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -11431,5 +11436,10 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+@media (max-width: 991px) {
+  .picture{
+    display: block !important;
   }
 }
